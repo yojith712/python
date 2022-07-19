@@ -1,0 +1,7 @@
+print('Calcluate this month and last month power bill')
+print('Enter current month units')
+a=float(input())
+print('Enter previous month units')
+b=float(input())
+c=(a-b)* 3.75
+print('Last month power bill is $',c)
