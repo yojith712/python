@@ -1,0 +1,11 @@
+print("caluclate addiation ,subtraction ,multipulaction and divison")
+a=int(input())
+b=int(input())
+c=a+b
+print('sum',c)
+d=a-b
+print('subbtraction',d)
+e=a*b
+print('multiple',e)
+f=a/b
+print('divsion',f)
