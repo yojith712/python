@@ -1,0 +1,5 @@
+#print  even numbers 10 to 20 (20 12 14 16 18 10)
+i=20
+while i>=10:
+    print(i,end=' ')
+    i=i+2
