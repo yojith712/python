@@ -1,4 +1,4 @@
-#print even numbers from 1 to n(1+3+5+7+....n)
+#print odd numbers from 1 to n(1+3+5+7+....n)
 print('enter n value')
 n=int(input())
 i=1
