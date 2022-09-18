@@ -1,0 +1,16 @@
+def calculate(pa):
+    if pa<=5000:
+        dis=pa*5/100
+    elif pa<=10000:
+        dis=pa*10/100
+    elif pa<=20000:
+        dis=pa*20/100
+    elif pa<=3000:
+        dis=pa*30/100
+    else:
+        dis=pa*40/100
+    net=pa-dis
+    print(f'discount={dis}, net amount={net}')
+
+pa=int(input('Enter purchase amount'))
+calculate(pa)
