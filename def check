@@ -1,0 +1,8 @@
+def check(age):
+    if age>60:
+        print('retire')
+    else:
+        print('not retire')
+    
+age=int(input('enter person age'))
+check(age)    
