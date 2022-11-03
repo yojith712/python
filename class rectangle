@@ -1,0 +1,16 @@
+class rectangle:
+    def accept(self,l,b):
+        self.l=l
+        self.b=b
+    def calc(self):
+        self.area=self.l*self.b
+        self.peri=2*(self.l+self.b)
+    def display(self):
+        print(f' area ={self.area:.2f} , perimeter ={self.peri:.2f}')
+rect=rectangle()
+print('enter 1 and b values')
+l=float(input())
+b=float(input())
+rect.accept(l,b)
+rect.calc()
+rect.display()
