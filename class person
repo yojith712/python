@@ -1,0 +1,17 @@
+class person:
+    legs=2
+    eyes=2
+    def accept(self,id,name,height):
+        self.id=id
+        self.name
+        self.height
+    def display(self):
+        print(f'id={self.},name={self.name},height={self.height}')
+        @classmethod
+        def disp(cls):
+        print(f'legs={cls.legs},eyes={cls.eyes}')
+
+yoji=person()
+yoji=accept(1,'yojith'5.3)
+yoji.display()
+yoji.disp()
