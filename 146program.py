@@ -1,4 +1,4 @@
-#accept a number t find and print the reverse of the given number
+#accept a number t find and print the given number is palindrome or not
  
 def reverse(n):
      
