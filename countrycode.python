@@ -1,0 +1,20 @@
+print('enter country code')
+countrycode=int(input())
+if countrycode ==1:
+    print('you are in usa or candada')
+elif countrycode ==7:
+    print('you are in russia or Kazakhstan')
+elif countrycode ==20:
+    print('you are in egypt')
+elif countrycode ==27:
+    print('you are in south africa')
+elif countrycode ==30:
+    print('you are in greece ')
+elif countrycode ==31:
+    print('you are in netherlands')
+elif countrycode ==32:
+    print('you are in beliguim')
+elif countrycode ==33:
+    print('you are in france')
+else:
+    print('you are in a diffrent country')
