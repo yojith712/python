@@ -1,0 +1,55 @@
+import random
+
+def print_welcome_message():
+    print("Welcome to the Adventure Game!")
+    print("You find yourself in a dark forest. There are paths to the north, south, east, and west.")
+
+def get_player_choice():
+    choice = input("What do you want to do? (north/south/east/west/quit): ").strip().lower()
+    return choice
+
+def handle_choice(choice, player):
+    if choice == "north":
+        player['location'] = "a mountain"
+        print("You walk north and find yourself at the base of a tall mountain.")
+    elif choice == "south":
+        player['location'] = "a river"
+        print("You walk south and come across a flowing river.")
+    elif choice == "east":
+        player['location'] = "a cave"
+        print("You walk east and discover the entrance to a dark cave.")
+    elif choice == "west":
+        player['location'] = "a village"
+        print("You walk west and arrive at a small village.")
+    elif choice == "quit":
+        player['playing'] = False
+        print("Thanks for playing!")
+    else:
+        print("Invalid choice. Please choose a valid direction.")
+
+def encounter(player):
+    if player['location'] == "a mountain":
+        print("You see a dragon flying in the sky.")
+    elif player['location'] == "a river":
+        print("You see a boat floating down the river.")
+    elif player['location'] == "a cave":
+        print("You hear growling from within the cave.")
+    elif player['location'] == "a village":
+        print("You meet a friendly villager who offers you food.")
+
+def game_loop():
+    player = {
+        'location': 'the forest',
+        'playing': True
+    }
+
+    print_welcome_message()
+
+    while player['playing']:
+        choice = get_player_choice()
+        handle_choice(choice, player)
+        if player['playing']:
+            encounter(player)
+
+if __name__ == "__main__":
+    game_loop()
