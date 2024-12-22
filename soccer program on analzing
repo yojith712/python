@@ -1,0 +1,33 @@
+print("Enter your top 5 favorite teams in the top 5 leagues and this will analyze and tell which club whould win")
+
+
+laliga=['Alavés', 'Almería', 'Athletic Bilbao', 'Atlético Madrid', 'Barcelona', 'Cádiz', 'Celta Vigo', 'Girona', 'Getafe', 'Granada', 'Las Palmas', 'Mallorca', 'Osasuna', 'Rayo Vallecano', 'Real Betis', 'Real Madrid', 'Real Sociedad', 'Sevilla', 'Valencia', 'Villarreal']
+
+
+premier=['Arsenal', 'Aston Villa', 'Bournemouth', 'Brentford', 'Brighton & Hove Albion', 'Chelsea', 'Crystal Palace', 'Everton', 'Fulham', 'Ipswich Town', 'Leicester City', 'Liverpool', 'Manchester City', 'Manchester United', 'Newcastle United', 'Nottingham Forest', 'Southampton', 'Tottenham Hotspur', 'West Ham United', 'Wolverhampton Wanderers']
+ 
+ 
+bundesliga=['FC Augsburg', 'Union Berlin', 'VfL Bochum', 'Werder Bremen', 'Borussia Dortmund', 'Eintracht Frankfurt', 'SC Freiburg, 1','FC Heidenheim', 'TSG Hoffenheim', 'Holstein Kiel', 'RB Leipzig', 'Bayer Leverkusen', 'Mainz 05', 'Borussia Mönchengladbach',' Bayern Munich', 'FC St. Pauli', 'VfB Stuttgart', 'VfL Wolfsburg']
+
+print(laliga)
+
+
+
+print(" ")
+
+
+print(premier)
+
+
+
+
+
+
+print(" ")
+
+
+
+
+
+
+print(bundesliga)
