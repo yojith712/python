@@ -1,0 +1,31 @@
+'''
+n=int(input("Enter numbers 1-50: "))
+
+if(n>=50):
+    print("Error to much")
+
+
+elif(n%2==0):
+    print("composite")
+        
+        
+elif(n%2!=0):
+    print("prime")
+
+'''
+
+
+'''
+x=int(input("Enter a number: "))
+
+for n in range(x):
+    print(n)
+    
+    if(n%2==0):
+        print("composite")
+    elif(n%2!=0):
+        print("Prime")
+        
+print(n)
+    
+'''
