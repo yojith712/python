@@ -1,0 +1,23 @@
+def search(list1,key):
+    for i in rangelen((list1)):
+        
+        if key == list1[i]:
+            print("key element is found at index",i)
+            break
+            
+    else:
+        print("element is not found")
+        
+list1=[]
+total_item=int(input("Enter number of items for the list: "))
+
+for x in range(total_item):
+    item=int(input("Enter numbers in list: "))
+    list1.append(item)
+    
+    
+print()
+print("this is the list of items:")
+print(list1)
+key=int(input("enter the key element: "))
+search(list1,key)
