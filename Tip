@@ -1,0 +1,7 @@
+import seaborn as sns
+import matplotlib.pyplot as pt
+
+data=sns.load_dataset("tips")
+print(data)
+data=sns.boxplot(data=data,x="day",y="tip")
+pt.show()
